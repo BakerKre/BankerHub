@@ -6,8 +6,8 @@ local banned game:HttpGet(blacklist, true)
 plr = game.Players.LocalPlayer
 
 if string.find(key,_G.Key) then
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerKre/BankerHub/main/Main"))()
+	
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerKre/BankerHub/main/Main"))()
 	print("WL Successful")
 else
 	plr:kick("WL Unsucessful. You are either not whitelisted or was blacklisted.")
